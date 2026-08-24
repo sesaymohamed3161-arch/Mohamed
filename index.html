@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Sesay | Software Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+  <!-- Ambient Glows -->
+  <div class="glow-bg">
+    <div class="glow-1"></div>
+    <div class="glow-2"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-terminal gradient-text"></i>
+        <span>Mohamed Sesay<span class="gradient-text">.dev</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-btn">Get In Touch</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="badge">
+            <span class="badge-dot"></span> Available for New Opportunities
+          </div>
+          <h1 class="hero-title">Hello , I'm Mohamed Sesay.</h1>
+          <p class="hero-subtitle">
+            a Computer Science student and developer focused on backend architectures, modern web systems, and secure software applications.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View Work <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Contact Me
+            </a>
+          </div>
+        </div>
+        <div class="hero-card">
+  <!-- Insert your image here -->
+  <img src="images/sm.png" alt="Mohamed Sesay" class="profile-img">
+</div>
+        <div class="hero-card">
+          <div class="code-header">
+            <div class="code-dot dot-red"></div>
+            <div class="code-dot dot-yellow"></div>
+            <div class="code-dot dot-green"></div>
+          </div>
+          <div class="code-body">
+            <p><span class="code-keyword">const</span> <span class="code-func">developer</span> = {</p>
+            <p>&nbsp;&nbsp;name: <span class="code-string">'Mohamed Sesay'</span>,</p>
+            <p>&nbsp;&nbsp;role: <span class="code-string">'Software Developer'</span>,</p>
+            <p>&nbsp;&nbsp;stack: [<span class="code-string">'Java'</span>, <span class="code-string">'PostgreSQL'</span>, <span class="code-string">'Web Tools'</span>],</p>
+            <p>&nbsp;&nbsp;focus: <span class="code-string">'Clean Architecture & Security'</span>,</p>
+            <p>&nbsp;&nbsp;status: <span class="code-string">'Always Learning'</span></p>
+            <p>};</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Technical Expertise</h2>
+        <p class="section-subtitle">Core technologies and domains I work with</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fa-brands fa-java skill-icon"></i>
+          <h3 class="skill-title">Core Java Development</h3>
+          <p class="skill-desc">Strong grasp of object-oriented programming, data structures, and backend execution principles.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-database skill-icon"></i>
+          <h3 class="skill-title">Database Design</h3>
+          <p class="skill-desc">Proficient in relational databases including PostgreSQL and MySQL for reliable data architectures.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-code skill-icon"></i>
+          <h3 class="skill-title">Modern Web Tech</h3>
+          <p class="skill-desc">Building responsive, accessible web interfaces using semantic HTML5, modern CSS, and vanilla JS.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-shield-halved skill-icon"></i>
+          <h3 class="skill-title">Cybersecurity Basics</h3>
+          <p class="skill-desc">Awareness of security fundamentals, password hygiene, and defensive development practices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Work</h2>
+        <p class="section-subtitle">A collection of software and web development projects</p>
+      </div>
+      <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-preview">
+            <i class="fa-solid fa-podcast project-icon-large"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Podcast & Content Platform</h3>
+            <p class="project-desc">A CMS-powered content hub designed for publishing episodes, managing categories, and enabling community discussions.</p>
+            <div class="project-tags">
+              <span class="tag">WordPress</span>
+              <span class="tag">PHP</span>
+              <span class="tag">CSS3</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Details</a>
+              <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Repository</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-preview">
+            <i class="fa-solid fa-shield-cat project-icon-large"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Cybersecurity Awareness Module</h3>
+            <p class="project-desc">An interactive training prototype focusing on phishing detection, password strength, and 2FA best practices.</p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Security</span>
+              <span class="tag">HTML5</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Details</a>
+              <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Repository</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-preview">
+            <i class="fa-solid fa-layer-group project-icon-large"></i>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Database Management System</h3>
+            <p class="project-desc">Structured relational database schemas tailored for efficient indexing and reliable system queries.</p>
+            <div class="project-tags">
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Java</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Details</a>
+              <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Repository</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Have a question or want to collaborate? Drop a message below.</p>
+      </div>
+      <div class="contact-card">
+        <form id="contactForm">
+          <div class="form-group">
+            <label class="form-label" for="name">Your Name</label>
+            <input type="text" id="name" class="form-input" placeholder="e.g. Alex Smith" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Your Email</label>
+            <input type="email" id="email" class="form-input" placeholder="alex@example.com" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea id="message" class="form-textarea" placeholder="Tell me about your project or inquiry..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+            Send Message <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="https://github.com/sesaymohamed3161-arch" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+      <p>&copy; 2026 Mohamed Sesay. Designed with HTML, CSS, and modern JavaScript.</p>
+    </div>
+  </footer>
+  <script src=".js"></script>
+  </body>
+</html>
